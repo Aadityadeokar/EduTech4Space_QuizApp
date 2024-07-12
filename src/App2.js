@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Note from "./Components/Note";
 import CreateArea from "./Components/CreateArea";
+import Card from './Components/Card';
 
 function App() {
   const [notes, setNotes] = useState([]);
